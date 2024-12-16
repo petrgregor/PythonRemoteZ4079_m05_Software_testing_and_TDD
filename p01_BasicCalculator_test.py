@@ -63,3 +63,7 @@ def test_divide():
     assert basic_calculator.divide(3, "5") is None
     assert round(basic_calculator.divide(2.1, 3.2), 5) == 0.65625
     assert basic_calculator.divide([5], 2) is None
+
+    # testování vyjímky
+    with pytest.raises(Exception):
+        assert basic_calculator.divide2(8, 0)

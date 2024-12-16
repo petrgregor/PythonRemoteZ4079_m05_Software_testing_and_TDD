@@ -44,6 +44,14 @@ class BasicCalculator:
                 return None
         return None
 
+    def divide2(self, num1, num2):
+        if ((isinstance(num1, int) or
+             isinstance(num1, float)) and
+                (isinstance(num2, int) or
+                 (isinstance(num2, float)))):
+                return num1 / num2
+        return None
+
 
 if __name__ == '__main__':
     basic_calculator = BasicCalculator()

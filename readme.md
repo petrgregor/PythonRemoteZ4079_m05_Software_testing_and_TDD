@@ -27,7 +27,7 @@ a definujte následující metody:
 - [x] `__eq__` (rovnost)
 - [ ] `__lt__` (<)
 - [ ] `__gt__` (>)
-- [ ] `__repr__`
+- [x] `__repr__`
 - [ ] `__str__`
 - [x] `properties` (gettery a settery)
 - [ ] `add` (sčítání)

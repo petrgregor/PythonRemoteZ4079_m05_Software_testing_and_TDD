@@ -29,6 +29,12 @@ class ComplexNumber:
         self.re = real_part
         self.img = img_part
 
+    def __repr__(self):
+        return f"ComplexNumber(re={self.re}, img={self.img})"
+
+    def __str__(self):
+        return f"{self.re} + {self.img}i"
+
     def __eq__(self, other):
         return self.re == other.re and self.img == other.img
 
@@ -59,3 +65,9 @@ class ComplexNumber:
             self.__img = img_part
         else:
             raise Exception
+
+
+if __name__ == '__main__':
+    c1 = ComplexNumber(2, 3)
+    print(c1)  # použije se metoda __str__ (přistupujeme přímo k objektu)
+    print([c1])  # použije se metoda __repr__

@@ -40,6 +40,17 @@ a definujte následující metody:
 **A vše řádně otestujte.**
 
 ## Lekce 2 (17. 12. 2024)
+Prošli jsme prezentaci slajdy 35-47:
+- fixtures
+- parametrické testy
+- mockování
+- coverage
+  - `pip install coverage`
+
+Prošli jsme úkoly z Journey:
+- [x] Cvičení 2
+- [x] Cvičení 3
+- [x] Cvičení 4
 
 ## Lekce 3 (18. 12. 2024)
 

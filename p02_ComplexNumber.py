@@ -66,6 +66,9 @@ class ComplexNumber:
         else:
             raise Exception
 
+    def absolute_value(self):
+        return (self.re ** 2 + self.img ** 2) ** 1/2
+
 
 if __name__ == '__main__':
     c1 = ComplexNumber(2, 3)

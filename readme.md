@@ -53,5 +53,12 @@ Prošli jsme úkoly z Journey:
 - [x] Cvičení 4
 
 ## Lekce 3 (18. 12. 2024)
+Prošli jsme úkol z Journey:
+- [x] Cvičení 5
+
+A další cvičné příklady:
+- [x] is_prime a factorial
+- [x] word_count
+- [x] fibonacci
 
 ## Lekce 4 (19. 12. 2024)

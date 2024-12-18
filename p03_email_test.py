@@ -6,9 +6,7 @@ from p03_check_email import check_email_format
 @pytest.fixture()
 def provide_email():
     print("Příprava emailového účtu")
-    emails = ["badmail.com", "bad@email@com"]
-    for email in emails:
-        yield email
+    yield "bademail"
     print("Úklid po testování")
 
 

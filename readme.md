@@ -62,3 +62,27 @@ A další cvičné příklady:
 - [x] fibonacci
 
 ## Lekce 4 (19. 12. 2024)
+Procvičili jsme další úkoly:
+- [x] library
+- [x] matrix (transpozice)
+- [ ] Task manager
+
+### Domácí úkoly
+#### Správa uživatelských účtů a volání externího API
+Vytvořte třídu `User`, která má atributy `username` (uživatelské jméno) a `email`.
+Vytvořte třídu `UserManager`, která umožňuje přidávat uživatele a odesílat ověřovací e-mail prostřednictvím externí služby.
+Metoda `send_verification_email(user)` ve třídě `UserManager` by měla volat metodu `send_email(to, subject, body)`, 
+která simuluje volání externího API pro odesílání e-mailu.
+Použijte **mock** objekty, abyste otestovali, zda metoda `send_verification_email` volá `send_email` s odpovídajícími parametry.
+
+#### Validace rodného čísla
+Napište funkci validující rodné číslo. 
+Funkce `is_valid()` bere jako parameter string s rodným číslem, 
+a vráti `True` nebo `False` v závislosti na výsledku validace.
+
+- K funkci přidejte pozitivní i negativní testy.
+- Zkuste použít programování s cyklem. 
+- Zkuste parametrizování testu. 
+- Zkuste testování výjimek.
+
+[Odkaz na paragraf 2 zákona stanovující validní rodné číslo](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/1995/301/)

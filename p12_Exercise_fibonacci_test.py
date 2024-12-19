@@ -28,6 +28,7 @@ def test_fibonacci_reduce_param(number, result):
     assert fibonacci_reduce(number) == result
 
 
+#@pytest.mark.skip
 def test_fibonacci_exception():
     with pytest.raises(TypeError):
         fibonacci("5")
